@@ -1,0 +1,45 @@
+.parent{
+	background-color: #1e3932;
+	display:flex;
+	width: 1174px;
+	margin: auto;
+
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.child{
+	width: calc(100% / 2);
+	text-align: center;
+	color: white;
+}
+img	{
+	width: 100%;
+}
+
+h1{
+	font-size: 38px;
+	margin: 25px;
+}
+	p{
+		font-size: 25px;
+		margin: 30px;
+	}
+
+
+  .right{
+  	display:flex;
+  	align-items: center;
+  }
+  a{
+  	color: white;
+  	text-decoration: none;
+  	border: 1px  solid  white;
+  	padding: 8px 25px;
+  	border-radius: 50px;
+  }
+  a:hover{
+  	background-color:rgba(255,255,255,0.1);
+  }
